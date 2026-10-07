@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     padding-bottom: 50px;
 }
- <!-- affects my name -->
+
 #name {
     font-size: 3em;
     text-transform: uppercase;
@@ -27,7 +27,7 @@ body {
     margin-right: 0;
     margin-left: 0;
 }
- <!-- affects skills, experience and education sections -->
+
 .sectionheader {
     font-size: 1.5em;
     background: #33485e;
@@ -41,16 +41,16 @@ body {
     width: 70%;
     min-width: 300px;
 }
- <!-- affects names of organizations -->
+
 .organization {
+    font-size: 1.25em;
+}
+
+.date {
     margin-top: 2px;
     margin-bottom: 0;
     margin-right: 0;
     margin-left: 0;
-}
-
-.date {
-    font-size: 1.25em;
 }
 
 .description {
@@ -59,7 +59,8 @@ body {
     margin-right: 0;
     margin-left: 0;
 }
- <!-- affects list of social media, email and linkedin -->
+
+
 .menu {
     margin: 0;
     padding: 0;
